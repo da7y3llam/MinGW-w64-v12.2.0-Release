@@ -24,3 +24,13 @@
 
 ملحوظة يجب أن يكون خيار "إضافة MinGW-64 الى متغير مسار النظام" محدد هذا لإضافة MinGW إلى متغير مسار النظام, إذا كنت ستستخدم MinGW من خلال CMD(Command Line) او Visual Studio Code
 ايضًا خيار "(GDB (GNU Debugg" يجب أن يكون محدد لتثبيته من أجل VS Code.
+
+=======================================================================
+هنا مثال بسيط على استخدام المكتبة بلغة C, قم بنسخ الكود التالي وقم بحفظه في ملف بامتداد .c
+#include <stdio.h>
+#include <cs50.h>
+int main() {
+    int age = get_int("Please enter your age: ");
+    printf("Your age in days is: %d\n", age * 365);
+    return 0;
+}
