@@ -1,0 +1,1 @@
+# MinGW-w64-v12.2.0-Release
