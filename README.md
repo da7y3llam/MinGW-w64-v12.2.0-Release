@@ -30,7 +30,6 @@
 #include <stdio.h>
 #include <cs50.h>
 int main() {
-    int age = get_int("Please enter your age: ");
-    printf("Your age in days is: %d\n", age * 365);
+
     return 0;
 }
