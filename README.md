@@ -31,6 +31,10 @@
 #include <stdio.h>
 #include <cs50.h>
 int main() {
-
+    int age = get_int("Please enter your age: ");
+    printf("Your age in days is: %d\n", age * 365);
     return 0;
 }
+
+لبناء الكود من خلال الـ Command Line (cmd) اكتب التالي: gcc filename.c -o myapp.exe
+ولتشغيله اكتب: filename.exe
